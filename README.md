@@ -7,9 +7,16 @@
 
 + **Train Dataset**
 
-  + https://www.kaggle.com/datasets/jessicali9530/stanford-dogs-dataset
+  + http://vision.stanford.edu/aditya86/ImageNetDogs/
   + https://www.kaggle.com/datasets/gpiosenka/70-dog-breedsimage-data-set
   + https://www.kaggle.com/datasets/venktesh/person-images
   + https://www.kaggle.com/datasets/hartman/dog-breed-identification
 + **Test Dataset**
   + https://www.kaggle.com/datasets/hartman/dog-breed-identification (train_data)
+  
+
++ **Reference**
+
+  + Aditya Khosla, Nityananda Jayadevaprakash, Bangpeng Yao and Li Fei-Fei. Novel dataset for Fine-Grained Image Categorization. First Workshop on Fine-Grained Visual Categorization (FGVC), IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2011.
+
+  + J. Deng, W. Dong, R. Socher, L.-J. Li, K. Li and L. Fei-Fei, ImageNet: A Large-Scale Hierarchical Image Database. IEEE Computer Vision and Pattern Recognition (CVPR), 2009.
