@@ -19,8 +19,8 @@
     + Train_AC = 0.944 => Test_AC (val_accuracy) = 0.858 
     + because of the Overfitting
 
-    ![캡처](https://user-images.githubusercontent.com/77375383/182320344-3d2f323e-4acc-4f75-b361-5391ac76dc24.PNG)
-    
+    ![캡처](https://user-images.githubusercontent.com/77375383/182338225-2e0a0369-6c17-408e-bf06-eb095f5b122b.PNG)
+
 ----------------------------------------
 
 
