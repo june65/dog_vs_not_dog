@@ -28,7 +28,7 @@ model = tf.keras.models.Sequential([
     # 512 Neuron (Hidden layer)
     tf.keras.layers.Dense(512, activation='relu'),
     # 1 Output neuron
-    tf.keras.layers.Dense(2, activation='softmax')
+    tf.keras.layers.Dense(1, activation='sigmoid')
 ])
 
 model.summary()
@@ -47,13 +47,13 @@ train_generator = train_datagen.flow_from_directory(
   './data/train_data_set',
   target_size=(300, 300),
   batch_size=64,
-  class_mode='categorical'
+  class_mode='binary'
 )
 history = model.fit(
   train_generator,
   steps_per_epoch=100,
   epochs=100,
-  verbose=1
+  verbose=2
 )
 
-model.save('./dog_vs_not_dog')
+model.save('./dog_vs_not_dog_v2')

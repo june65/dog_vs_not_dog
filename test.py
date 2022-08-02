@@ -14,11 +14,11 @@ for image in dog_images:
     x=np.expand_dims(x, axis=0)
     images = np.vstack([x])
     classes = model.predict(images)
-    if classes[0][0] == 1:
+    if classes[0] == 1 :
         score[0] += 1    
     else :
         score[1] += 1
     i += 1
-    if i==100:
+    if i==1000:
         break
 print(score)
