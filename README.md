@@ -11,6 +11,14 @@
   + https://www.kaggle.com/datasets/gpiosenka/70-dog-breedsimage-data-set
   + https://www.kaggle.com/datasets/venktesh/person-images
   + https://www.kaggle.com/datasets/hartman/dog-breed-identification
+  
+  + https://www.kaggle.com/datasets/iamsouravbanerjee/animal-image-dataset-90-different-animals
+  + https://www.kaggle.com/datasets/ahmadahmadzada/images2000
+  + https://www.kaggle.com/datasets/dansbecker/food-101/code
+  + https://www.kaggle.com/datasets/aishrules25/automatic-image-captioning-for-visually-impaired
+  + https://www.kaggle.com/datasets/aman2000jaiswal/agriculture-crop-images
+  + https://www.hemanthdv.org/officeHomeDataset.html
+  + https://www.kaggle.com/datasets/andrewmvd/animal-faces
 + **Test Dataset**
   + https://www.kaggle.com/datasets/hartman/dog-breed-identification (train_data)
   
