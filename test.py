@@ -3,7 +3,7 @@ import tensorflow as tf
 import keras
 import glob
 
-model = keras.models.load_model('./dog_vs_not_dog')
+model = keras.models.load_model('./dog_vs_not_dog_v2')
 dog_images = glob.glob('.\\data\\dog_test_data\\*')
 score = [0,0]
 i = 0
