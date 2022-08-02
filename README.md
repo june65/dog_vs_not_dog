@@ -9,13 +9,15 @@
 
 1. Model_v1
     
-    + Train_AC = 0.821 => Test_AC = 0.700 (low epochs)
+    + Train_AC = 0.821 => Test_AC (val_accuracy) = 0.700 
+    + because of the low epochs
     
     ![캡처](https://user-images.githubusercontent.com/77375383/182327156-3cbd37c0-ef2f-4a77-80b6-223710a5de05.PNG)
     
 2. Model_v2
 
-    + Train_AC = 0.939 => Test_AC = 0.828 (Overfitting)
+    + Train_AC = 0.944 => Test_AC (val_accuracy) = 0.858 
+    + because of the Overfitting
 
     ![캡처](https://user-images.githubusercontent.com/77375383/182320344-3d2f323e-4acc-4f75-b361-5391ac76dc24.PNG)
     
