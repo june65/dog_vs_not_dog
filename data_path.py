@@ -4,7 +4,7 @@ import glob
 import random
 import string
 #dog_data PATH
-final_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/dog_data'
+final_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/train_data_set/dog_data'
 data1_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data1/images/Images'
 data2_test_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data2/test'
 data2_train_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data2/train'
@@ -16,7 +16,7 @@ data4_train_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data5/train'
 data4_test_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/dog_test_data'
 
 #not_dog_data PATH
-final_not_dog_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/not_dog_data'
+final_not_dog_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/train_data_set/not_dog_data'
 data5_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data5/animals'
 data6_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data6/images'
 data7_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data7'

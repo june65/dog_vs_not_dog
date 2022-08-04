@@ -3,7 +3,7 @@ import tensorflow as tf
 import keras
 import glob
 
-model = keras.models.load_model('./dog_vs_not_dog_v2')
+model = keras.models.load_model('./dog_vs_not_dog_v3')
 dog_images = glob.glob('.\\data\\dog_test_data\\*')
 score = [0,0]
 i = 0
@@ -18,7 +18,8 @@ for image in dog_images:
         score[0] += 1    
     else :
         score[1] += 1
-    i += 1
-    if i==1000:
-        break
+    #i += 1
+    #if i==1000:
+    #   break
+
 print(score)
