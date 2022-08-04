@@ -26,6 +26,8 @@
     + Train_AC = 0.892 => Test_AC (val_accuracy) = 0.973
     + Add Image augmentation to solve the Overfitting
     
+    ![캡처](https://user-images.githubusercontent.com/77375383/182741557-53e36367-5795-4686-9a3b-ce6d111dbb19.PNG)
+
 ----------------------------------------
 
 
