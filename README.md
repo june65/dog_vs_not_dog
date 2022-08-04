@@ -21,7 +21,11 @@
 
     ![캡처](https://user-images.githubusercontent.com/77375383/182338225-2e0a0369-6c17-408e-bf06-eb095f5b122b.PNG)
     ![캡처](https://user-images.githubusercontent.com/77375383/182340439-b7ae2797-318f-4ece-b44d-c059108683b5.PNG)
+3. Model_v3
 
+    + Train_AC = 0.892 => Test_AC (val_accuracy) = 0.973
+    + Add Image augmentation to solve the Overfitting
+    
 ----------------------------------------
 
 
