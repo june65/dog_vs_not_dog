@@ -18,8 +18,8 @@ for image in dog_images:
         score[0] += 1    
     else :
         score[1] += 1
-    #i += 1
-    #if i==1000:
-    #   break
+    i += 1
+    if i==100:
+       break
 
 print(score)

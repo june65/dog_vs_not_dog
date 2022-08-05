@@ -59,8 +59,8 @@ train_generator = train_datagen.flow_from_directory(
 history = model.fit(
   train_generator,
   steps_per_epoch=100,
-  epochs=400,
+  epochs=1000,
   verbose=1
 )
 
-model.save('./dog_vs_not_dog_v3')
+model.save('./dog_vs_not_dog_v4')
