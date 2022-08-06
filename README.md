@@ -28,6 +28,12 @@
     
     ![캡처](https://user-images.githubusercontent.com/77375383/182741557-53e36367-5795-4686-9a3b-ce6d111dbb19.PNG)
 
+3. Model_v3
+
+    + Train_AC = 0.792 => Test_AC (val_accuracy) = 0.992
+    + larger epoch(1000)
+    
+    ![image](https://user-images.githubusercontent.com/77375383/183241734-968cf956-a8ce-44be-9ef3-45836a125306.png)
 ----------------------------------------
 
 
