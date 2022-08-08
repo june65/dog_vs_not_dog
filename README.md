@@ -34,6 +34,9 @@
     + larger epoch(1000)
     
     ![image](https://user-images.githubusercontent.com/77375383/183241734-968cf956-a8ce-44be-9ef3-45836a125306.png)
+    + wrong test data => blue data is making some problems
+    ![KakaoTalk_20220808_131630955](https://user-images.githubusercontent.com/77375383/183339094-2f3eb207-e053-4454-b3cb-4b7c3510cc51.png)
+
 ----------------------------------------
 
 
