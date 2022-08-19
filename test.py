@@ -8,12 +8,13 @@ from matplotlib import pyplot as plt
 import matplotlib.image as mpimg
 
 #model = tf.saved_model.load('./dog_vs_not_dog_v4')
-#model = keras.models.load_model('./dog_vs_not_dog_v3')
-model = tf.keras.Sequential([
-    hub.KerasLayer("./dog_vs_not_dog_v4")
+model = tf.keras.models.load_model('./dog_vs_not_dog_v5')
+'''model = tf.keras.Sequential([
+    hub.KerasLayer("./dog_vs_not_dog_v3")
 ])
+'''
 
-dog_images = glob.glob('.\\data\\dog_test_data\\*')
+dog_images = glob.glob('.\\data\\test_data_set\\not_dog_data\\*')
 
 error_dataset = []
 
@@ -26,6 +27,7 @@ for image in dog_images:
     x=np.expand_dims(x, axis=0)
     images = np.vstack([x])
     classes = model.predict(images, verbose=1)
+    print(classes)
     if classes[0] == 1 :
         score[0] += 1    
         None
@@ -36,9 +38,9 @@ for image in dog_images:
         error_dataset.append(cv2_image2)
 
     i += 1
-    '''
-    if i ==10000:
-        break'''
+    
+    if i ==100:
+        break
 print(score)
 
 

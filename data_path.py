@@ -24,7 +24,7 @@ data8_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data8/visuallyimpai
 data9_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data9/kag2'
 data10_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data10/OfficeHomeDataset_10072016/Real World'
 data11_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/data11/afhq/train'
-
+final_not_dog_test_path = 'C:/Users/이준명/Desktop/dog_vs_not_dog/data/test_data_set/not_dog_data'
 
 #data1
 '''
@@ -242,4 +242,18 @@ for filename in dog_breed_files:
 #train data number
 train_not_dog_data_images = glob.glob(final_not_dog_path+'/*')
 print(len(train_not_dog_data_images))
-#40113 dog_data
+#40113 not_dog_data
+
+i=0
+
+dog_breed_files = glob.glob(final_not_dog_path+'/*')
+
+for filename in dog_breed_files:
+
+    if i % 8:
+        shutil.move(filename, final_not_dog_test_path)
+            
+    i += 1
+
+train_not_dog_data_images = glob.glob(final_not_dog_test_path+'/*')
+print(len(final_not_dog_test_path))
